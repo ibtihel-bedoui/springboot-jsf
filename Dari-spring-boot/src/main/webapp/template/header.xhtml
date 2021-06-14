@@ -1,0 +1,34 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+       xmlns:h="http://java.sun.com/jsf/html"
+      >
+    <body>
+	    <ui:composition>
+		
+				
+  <h1 class="w3-xlarge">PHOTOGRAPHER</h1>
+  <h1>John Doe</h1>
+   <h:form>
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="/pages/WelcomeClent.jsf" class="w3-bar-item w3-button">Home</a>
+      <a href="/Bank.jsf" class="w3-bar-item w3-button w3-light-grey">Bank</a>
+      <a href="/simulation-List.jsf" class="w3-bar-item w3-button">Credit</a>
+      
+     
+            <h:commandLink styleClass="w3-bar-item w3-button w3-hide-small"  action="#{AdminController.logout}"  value="Logout" />
+           
+    </div>
+  </div>
+ </h:form>
+
+				
+					
+	    </ui:composition>
+    </body>
+</html>
+
+
